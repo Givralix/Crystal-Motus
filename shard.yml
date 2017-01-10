@@ -1,0 +1,18 @@
+name: crystal-motus
+version: 0.1.0
+
+authors:
+  - Givralix <amelie.lulia68@gmail.com>
+
+targets:
+  crystal-motus:
+    main: src/crystal-motus.cr
+
+dependencies:
+    crsfml:
+        github: BlaXpirit/crsfml
+        version: 2.4.3
+
+crystal: 0.20.3
+
+license: MIT
